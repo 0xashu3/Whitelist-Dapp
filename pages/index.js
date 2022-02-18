@@ -5,7 +5,7 @@ import { providers, contract, Contract } from "ethers";
 import { useEffect, useRef, useState } from "react";
 import { WHITELIST_CONTRACT_ADDRESS, abi } from "../constants";
 
-export default function main() {
+export default function Home() {
   const [walletConnected, setWalletConnected] = useState(false);
   const [joinedWhitelist, setJoinedWhitelist] = useState(false);
   const [loading, setLoading] = useState(false);
